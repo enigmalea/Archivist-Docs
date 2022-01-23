@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[141],{8555:function(s){s.exports=JSON.parse('{"allTagsPath":"/Archivist-Docs/blog/tags","slug":"/Archivist-Docs/blog/tags/hola","name":"hola","count":1,"permalink":"/Archivist-Docs/blog/tags/hola"}')}}]);
