@@ -1,0 +1,16 @@
+.tablabel {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    padding: 7px;
+  }
+
+  .tablabel[aria-selected='false'] {
+    background: rgba(141, 141, 141, 0.329);
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+
+  .tablabel[aria-selected='true'] {
+    background: rgba(226, 226, 226, 0.514);
+  }

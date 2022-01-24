@@ -8,19 +8,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   "title": "Archivist",
   "url": "https://enigmalea.github.io/",
-  "baseUrl": "/",
+  "baseUrl": "/Archivist-Docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.png",
   "organizationName": "enigmalea",
   "projectName": "Archivist-Docs",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
         "docs": {
           "sidebarPath": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
           "showReadingTime": true,

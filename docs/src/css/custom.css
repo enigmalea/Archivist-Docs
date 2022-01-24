@@ -5,6 +5,9 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+
 :root {
   --ifm-color-primary: #9c0000;
   --ifm-color-primary-dark: #8c0000;
@@ -13,9 +16,11 @@
   --ifm-color-primary-light: #ac0000;
   --ifm-color-primary-lighter: #b30000;
   --ifm-color-primary-lightest: #cb0000;
-  --ifm-navbar-background-color: #F2F3F5;
-  --ifm-footer-background-color: #F2F3F5;
-  --ifm-code-font-size: 95%;
+  --ifm-background-color: #F2F3F5;
+  --ifm-navbar-background-color: #E3E5E8;
+  --ifm-footer-background-color: #E3E5E8;
+  --ifm-font-family-base: 'Poppins', sans-serif;
+  --ifm-font-size-base: 15px;
 }
 
 .docusaurus-highlight-code-line {
@@ -26,13 +31,13 @@
 }
 
 html[data-theme='dark'] {
-  --ifm-color-primary: #fee820;
-  --ifm-color-primary-dark: #fee504;
-  --ifm-color-primary-darker: #f2da01;
-  --ifm-color-primary-darkest: #c7b401;
-  --ifm-color-primary-light: #feeb3c;
-  --ifm-color-primary-lighter: #feec4b;
-  --ifm-color-primary-lightest: #fef175;
+  --ifm-color-primary: #6af780;
+  --ifm-color-primary-dark: #48f563;
+  --ifm-color-primary-darker: #38f455;
+  --ifm-color-primary-darkest: #0deb2f;
+  --ifm-color-primary-light: #8cf99d;
+  --ifm-color-primary-lighter: #9cfaab;
+  --ifm-color-primary-lightest: #cffcd6;
   --ifm-background-color: #36393e;
 }
 
@@ -42,4 +47,57 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 html[data-theme='dark'] footer, html[data-theme='dark'] .navbar {
   background-color: #2F3136;
+}
+
+html {
+  line-height: 1.2rem;
+  letter-spacing: 0.03rem;
+}
+
+.navbar__brand {
+  font-family: 'Aldrich', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Aldrich', sans-serif;
+  color: var(--ifm-color-primary-lightest);
+}
+
+h1 {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+strong, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+strong, h3 {
+  font-variant: small-caps;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 1px solid var(--ifm-color-primary-lightest);
+  border-radius: 2px;
+}
+
+.admonition_example {
+  background-color: #ffffff;
 }
