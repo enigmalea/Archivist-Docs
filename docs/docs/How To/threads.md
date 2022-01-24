@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Mention Threads
-Although threads behave very similarly to channels, Discord does not provide a context pop up to mention them when we type `#` in our text input. However, they can be mentioned and therefore used in commands and specifically, for our [redirect settings](/docs/redirect). In order to do this we must have the `Thread ID`.
+Although threads behave very similarly to channels, Discord does not provide a context pop up to mention them when we type `#` in our text input. However, they can be mentioned and therefore used in commands and specifically, for our [redirect settings](/docs/Commands/redirect). In order to do this we must have the `Thread ID`.
 
 **What is a `Thread ID`?**
 
