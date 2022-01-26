@@ -12,7 +12,7 @@ In short, the way Discord is programmed every element (user, role, message, chan
 Because these IDs are essential to interacting with Discord, developers of applications and bots need to have access to them. This is good news for us, because Discord has made them easy to get.
 
 #### 1. If you don't have it on already, **turn on Developer Mode**. ####
-- Start by going to `User Settings` 🠖 `Advanced`.
+- Start by going to `User Settings` &#8594; `Advanced`.
 - Tick on the `Developer Mode` toggle.
 
 ![Developer Mode](/img/devmode.png)

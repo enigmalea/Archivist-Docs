@@ -28,7 +28,7 @@ Archivist must have permissions to **Read Messages** in the channel the link is 
 
 <Tabs>
   <TabItem value="channels" label="Channels" attributes={{className: tabs.tablabel}}>We recommend <strong>mentioning</strong> your channel when you use this command. This will help avoid potentional errors with similarly named channels or in case you rename your channel later.</TabItem>
-  <TabItem value="threads" label="Threads" attributes={{className: tabs.tablabel}}>In order to use a thread, the thread must be created and unarchived. If the thread is archived, Archivist will not accept the input and will not respond.<br /><br />To mention threads, you will need to use the ID. Please see <a href="/docs/How%20To/threads">How To 🠖 Mention Threads</a> for more info.</TabItem>
+  <TabItem value="threads" label="Threads" attributes={{className: tabs.tablabel}}>In order to use a thread, the thread must be created and unarchived. If the thread is archived, Archivist will not accept the input and will not respond.<br /><br />To mention threads, you will need to use the ID. Please see <a href="/docs/How%20To/threads">How To &#8594; Mention Threads</a> for more info.</TabItem>
 </Tabs>
 
 :::

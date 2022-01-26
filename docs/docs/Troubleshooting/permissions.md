@@ -20,7 +20,7 @@ On join, **Archivist** requests permissions that it needs to function *at the ti
 - **Use Application Commands:** required for the future move to slash commands later in 2022.
 
 ### Editing Permissions ###
-To update these permissions manually go to `Server Settings 🠖 Roles 🠖 Archivist`. You may also reinvite the bot if you invited the bot prior to the January 2022 release.
+To update these permissions manually go to `Server Settings &#8594; Roles &#8594; Archivist`. You may also reinvite the bot if you invited the bot prior to the January 2022 release.
 
 We recommend that you do not edit permissions at the channel level in channels where you would like Archivist to have access. Only use this feature to restrict the bot from seeing channels. Please see How to Restrict Archivist's Access.
 

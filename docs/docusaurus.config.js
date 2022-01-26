@@ -24,10 +24,9 @@ const config = {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\src\\css\\custom.css",
         }
       }
     ]
@@ -37,29 +36,30 @@ const config = {
       "title": "Archivist",
       "logo": {
         "alt": "Archivist Logo",
-        "src": "img/logo.png"
+        "src": "img/logo.png",
       },
       "items": [
-        {
+        { 
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Commands"
-        }
+          "label": "🕮 Guide"
+        },
+        { 
+          "href": "https://discord.com/api/oauth2/authorize?client_id=812505952959856690&permissions=2148005952&scope=bot",
+          "position": "left",
+          "label": "+ Invite"
+        },
+        { 
+          "href": "https://discord.gg/FzhC9bVFva",
+          "position": "left",
+          "label": "？Help"
+        },
       ],
       "hideOnScroll": true
     },
     "footer": {
       "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
         {
           "title": "Community",
           "items": [
@@ -280,7 +280,7 @@ const config = {
       "additionalLanguages": []
     },
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {

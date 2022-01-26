@@ -17,8 +17,6 @@
   --ifm-color-primary-lighter: #b30000;
   --ifm-color-primary-lightest: #cb0000;
   --ifm-background-color: #F2F3F5;
-  --ifm-navbar-background-color: #E3E5E8;
-  --ifm-footer-background-color: #E3E5E8;
   --ifm-font-family-base: 'Poppins', sans-serif;
   --ifm-font-size-base: 15px;
 }
@@ -47,6 +45,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 html[data-theme='dark'] footer, html[data-theme='dark'] .navbar {
   background-color: #2F3136;
+}
+
+html[data-theme='light'] footer, html[data-theme='light'] .navbar {
+  background-color: #E3E5E8;
 }
 
 html {
@@ -96,8 +98,4 @@ hr {
   margin-bottom: 3em;
   border: 1px solid var(--ifm-color-primary-lightest);
   border-radius: 2px;
-}
-
-.admonition_example {
-  background-color: #ffffff;
 }
