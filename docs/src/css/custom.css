@@ -145,6 +145,11 @@ a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-content
   text-decoration: none;
 }
 
+.row {
+  align-items: flex-end;
+  justify-content: center;
+}
+
 @media screen and (max-width:640px) {
   h1 {
     font-size: 1.902em;
