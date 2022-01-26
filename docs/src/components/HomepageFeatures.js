@@ -5,41 +5,65 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    src: require('../../static/img/fic.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Simply invite Archivist to your Discord server and it will start recognizing
+        links from Archive of Our Own immediately.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Info at a Glance',
+    src: require('../../static/img/imgpreview.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With a colored sidebar that shows fic rating, recognizable icons from AO3,
+        and a preview of fanart in the fic, you can easily see important info at a
+        glance.
+
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Share Your Bio',
+    src: require('../../static/img/user.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Need to post an intro to a server? Did someone ask for a link to all your 
+        fics? Drop the link to your user profile, and Archivist will do the rest 
+        for you!
+      </>
+    ),
+  },
+  {
+    title: 'Get A Series Summary',
+    src: require('../../static/img/series.png').default,
+    description: (
+      <>
+        Find out if a Series is complete, when it was last updated, how many works 
+        their are, and view any series notes or descriptions the authors have 
+        provided.
+      </>
+    ),
+  },
+  {
+    title: 'Advanced Features',
+    src: require('../../static/img/settings.png').default,
+    description: (
+      <>
+        Supports links from collections, multiple authors, multiple series, fully
+        customizable embeds, and other convenient moderation features.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({src, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img src={src} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

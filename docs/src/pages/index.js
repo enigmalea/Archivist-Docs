@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://discord.com/api/oauth2/authorize?client_id=812505952959856690&permissions=2148005952&scope=bot">
-            Invite to Server
+            Invite to Discord
           </Link>
         </div>
       </div>

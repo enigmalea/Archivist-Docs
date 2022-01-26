@@ -45,19 +45,19 @@ const config = {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": " Guide",
+          "label": "Guide",
           "className": "guide"
         },
         { 
           "href": "https://discord.com/api/oauth2/authorize?client_id=812505952959856690&permissions=2148005952&scope=bot",
           "position": "left",
-          "label": " Invite",
+          "label": "Invite",
           "className": "invite"
         },
         { 
           "href": "https://discord.gg/FzhC9bVFva",
           "position": "left",
-          "label": " Help",
+          "label": "Help",
           "className": "help"
         },
         { 
@@ -98,7 +98,11 @@ const config = {
               "href": "/releases",
             },
             {
-              "label": "GitHub",
+              "label": "Support",
+              "href": "/support",
+            },
+            {
+              "label": "Docs GitHub",
               "href": "https://github.com/enigmalea/Archivist-Docs",
             }
           ]

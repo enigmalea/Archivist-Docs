@@ -1,11 +1,17 @@
+
+
 .features {
   display: flex;
-  align-items: center;
   padding: 2rem 0;
   width: 100%;
+  justify-content: center;
 }
 
 .featureSvg {
-  height: 200px;
+  height: auto;
   width: 200px;
+}
+
+.text--center img {
+  padding-top: auto;
 }

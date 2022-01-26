@@ -108,16 +108,19 @@ strong, h3 {
 .guide::before {
   font: var(--fa-font-solid);
   content:'\f02d';
+  padding-right: 5px;
 }
 
 .invite::before {
   font: var(--fa-font-solid);
   content:'\f055';
+  padding-right: 5px;
 }
 
 .help::before {
   font: var(--fa-font-brands);
   content:'\f392';
+  padding-right: 5px;
 }
 
 .twitter::before {
@@ -128,6 +131,18 @@ strong, h3 {
 .github::before {
   font: var(--fa-font-brands);
   content:'\f09b';
+}
+
+.guide, .invite, .help {
+  justify-content: flex-start;
+}
+
+a:hover {
+  text-decoration: underline dashed;
+}
+
+a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-contents__link:hover, img {
+  text-decoration: none;
 }
 
 @media screen and (max-width:640px) {
