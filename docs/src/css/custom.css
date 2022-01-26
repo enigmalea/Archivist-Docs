@@ -7,6 +7,7 @@
 /* You can override the default Infima variables here. */
 
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+@import "/fontawesome/css/all.css";
 
 :root {
   --ifm-color-primary: #9c0000;
@@ -18,7 +19,7 @@
   --ifm-color-primary-lightest: #cb0000;
   --ifm-background-color: #F2F3F5;
   --ifm-font-family-base: 'Poppins', sans-serif;
-  --ifm-font-size-base: 15px;
+  --ifm-font-size-base: 1em;
 }
 
 .docusaurus-highlight-code-line {
@@ -62,6 +63,20 @@ html {
   font-size: 18px;
 }
 
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 1px solid var(--ifm-color-primary-lightest);
+  border-radius: 2px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2rem;
   font-weight: 400;
@@ -86,16 +101,49 @@ strong, h3 {
   font-variant: small-caps;
 }
 
-code {
-  font-family: 'Roboto Mono', monospace;
+[class*=iconExternalLink] {
+  display: none;
 }
 
-hr {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  border: 1px solid var(--ifm-color-primary-lightest);
-  border-radius: 2px;
+.guide::before {
+  font: var(--fa-font-solid);
+  content:'\f02d';
+}
+
+.invite::before {
+  font: var(--fa-font-solid);
+  content:'\f055';
+}
+
+.help::before {
+  font: var(--fa-font-brands);
+  content:'\f392';
+}
+
+.twitter::before {
+  font: var(--fa-font-brands);
+  content:'\f099';
+}
+
+.github::before {
+  font: var(--fa-font-brands);
+  content:'\f09b';
+}
+
+@media screen and (max-width:640px) {
+  h1 {
+    font-size: 1.902em;
+  }
+
+  h2 {
+    font-size: 1.424em;
+  }
+
+  h3 {
+    font-size: 1.266em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
 }

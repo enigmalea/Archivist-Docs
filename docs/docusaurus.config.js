@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   "title": "Archivist",
+  "tagline": "The Most Comprehensive AO3 Embed Bot for Discord",
   "url": "https://enigmalea.github.io/",
   "baseUrl": "/Archivist-Docs/",
   "onBrokenLinks": "throw",
@@ -32,6 +33,7 @@ const config = {
     ]
   ],
   "themeConfig": {
+    "image": 'img/logo.png',
     "navbar": {
       "title": "Archivist",
       "logo": {
@@ -43,20 +45,35 @@ const config = {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Guide"
+          "label": " Guide",
+          "className": "guide"
         },
         { 
           "href": "https://discord.com/api/oauth2/authorize?client_id=812505952959856690&permissions=2148005952&scope=bot",
           "position": "left",
-          "label": "Invite"
+          "label": " Invite",
+          "className": "invite"
         },
         { 
           "href": "https://discord.gg/FzhC9bVFva",
           "position": "left",
-          "label": "Help"
+          "label": " Help",
+          "className": "help"
+        },
+        { 
+          "href": "https://twitter.com/_ArchivistBot_",
+          "position": "right",
+          "label": "\u200B",
+          "className": "twitter"
+        },
+        { 
+          "href": "https://github.com/enigmalea/Archivist-Docs",
+          "position": "right",
+          "label": "\u200B",
+          "className": "github"
         },
       ],
-      "hideOnScroll": true
+      "hideOnScroll": false
     },
     "footer": {
       "links": [
@@ -65,11 +82,11 @@ const config = {
           "items": [
             {
               "label": "Discord",
-              "href": "https://discord.gg/FzhC9bVFva"
+              "href": "https://discord.gg/FzhC9bVFva",
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/_ArchivistBot_"
+              "href": "https://twitter.com/_ArchivistBot_",
             }
           ]
         },
@@ -77,8 +94,21 @@ const config = {
           "title": "More",
           "items": [
             {
+              "label": "Release Notes",
+              "href": "/releases",
+            },
+            {
               "label": "GitHub",
-              "href": "https://github.com/enigmalea/Archivist-Docs"
+              "href": "https://github.com/enigmalea/Archivist-Docs",
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "items": [
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy"
             }
           ]
         }
@@ -317,7 +347,7 @@ const config = {
   "customFields": {},
   "plugins": [],
   "themes": [],
-  "titleDelimiter": "|",
+  "titleDelimiter": "\u2606",
   "noIndex": false
 };
 
