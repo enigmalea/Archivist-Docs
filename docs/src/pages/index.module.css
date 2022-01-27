@@ -3,18 +3,23 @@
  * and scoped locally.
  */
 
+
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background-color: var(--ifm-background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner p {
+  font-family: 'Aldrich', sans-serif;
+  color: var(--ifm-font-color-base);
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.902em;
 }
+
+
 
 .buttons {
   display: flex;

@@ -101,6 +101,11 @@ strong, h3 {
   font-variant: small-caps;
 }
 
+.emphasis {
+  color: var(--ifm-color-primary-darkest);
+  text-shadow: none;
+}
+
 [class*=iconExternalLink] {
   display: none;
 }
@@ -146,8 +151,13 @@ a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-content
 }
 
 .row {
-  align-items: flex-end;
+  align-items: baseline;
   justify-content: center;
+}
+
+.footer__links {
+  align-items: unset;
+  justify-content: unset;
 }
 
 @media screen and (max-width:640px) {
@@ -166,4 +176,25 @@ a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-content
   h4 {
     font-size: 1.125em;
   }
+}
+
+.button  {
+  background-color: var(--ifm-background-color);
+  border: 3px dashed var(--ifm-color-primary-darkest);
+}
+
+.button.button--secondary {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  font-variant: small-caps;
+  font-weight: 400;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-darkest);
+}
+
+.button.button--secondary:hover {
+  color: var(--ifm-background-color);
 }

@@ -42,7 +42,7 @@ const FeatureList = [
     description: (
       <>
         Find out if a Series is complete, when it was last updated, how many works 
-        their are, and view any series notes or descriptions the authors have 
+        there are, and view any series notes or descriptions the authors have 
         provided.
       </>
     ),

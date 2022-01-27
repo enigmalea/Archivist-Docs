@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   "title": "Archivist",
-  "tagline": "The Most Comprehensive AO3 Embed Bot for Discord",
+  "tagline":  "The Most Comprehensive AO3 Embed Bot for Discord",
   "url": "https://enigmalea.github.io/",
   "baseUrl": "/Archivist-Docs/",
   "onBrokenLinks": "throw",
@@ -115,7 +115,15 @@ const config = {
               "href": "/privacy"
             }
           ]
-        }
+        },
+        {
+          "title": "\u200B",
+          "items": [
+            {
+             "html": `<a href="https://top.gg/bot/812505952959856690"><img src="https://top.gg/api/widget/812505952959856690.svg"></a>`,
+            }
+          ]
+        },
       ],
       "copyright": `Copyright © ${new Date().getFullYear()} enigmalea. Built with <a href="https://docusaurus.io/">Docusaurus</a>.`
     },

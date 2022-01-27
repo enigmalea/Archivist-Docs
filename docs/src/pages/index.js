@@ -11,13 +11,13 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">The Most <span class="emphasis">Comprehensive</span><br />
+        AO3 Embed Bot for Discord</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="https://discord.com/api/oauth2/authorize?client_id=812505952959856690&permissions=2148005952&scope=bot">
-            Invite to Discord
+            Invite to Server
           </Link>
         </div>
       </div>
