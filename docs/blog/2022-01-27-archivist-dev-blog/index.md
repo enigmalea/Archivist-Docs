@@ -13,12 +13,12 @@ There's been a lot of Discord updates since the last time I was able to give Arc
 <!--truncate-->
 
 #### Discord Invite Integration ####
-**The addition of thread support and future switch to slash commands** forced me to take a look at the permissions being requested by Archivist on invite and to see how the bot's needs had changed. 
+**The future addition of thread support and switch to slash commands** forced me to take a look at the permissions being requested by Archivist on invite and to see how the bot's needs had changed. 
 This lead me to updating the invite links at both [top.gg](https://top.gg/bot/812505952959856690) and [DiscordBotList](https://discordbotlist.com/bots/archivist) and throughout the bot, as well as activated Discord's new app integrated invite system. <u>Now when you want to add Archivist to a new server you don't have to leave Discord.</u> You can simply hover over the bot to see its profile and click the `Add to Server` button.
 
 ![Add to Server](invite.png)
 
-But it also made me realize that with this update (and potentially future ones), users will need to change permissions or at least double check to make sure the correct ones had been added, or else **the updates would not work.** Because of this, you needed [a reference](/docs/Troubleshooting/permissions) - something easy to follow and read, and I didn't feel like the current website met those needs. With the list of commands growing longer, I felt organization was very important, and the current website made trying to organize things logically very difficult. That lead to...
+But it also made me realize that users will need to change permissions or at least double check to make sure the correct ones had been added, or else **the updates would not work.** Because of this, you needed [a reference](/docs/Troubleshooting/permissions) - something easy to follow and read, and I didn't feel like the current website met those needs. With the list of commands growing longer, I felt organization was very important, and the current website made trying to organize things logically very difficult. That lead to...
 
 #### The New Website ####
 I'd been looking for solutions for the website for a long time. I was pretty sure I wanted to move to Github Pages, for ease of updating and because it would allow the community to begin to contribute directly if they wanted to. But I simply hadn't taken the leap - finding a site generator I liked and wanted to work with was difficult, but a friend finally suggested [Docusaurus](https://docusaurus.io/).

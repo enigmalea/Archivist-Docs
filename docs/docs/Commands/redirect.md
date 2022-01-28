@@ -10,6 +10,13 @@ import TabItem from '@theme/TabItem';
 
 import tabs from './tabs.module.css';
 
+:::warning
+
+All references below to threads being supported are incorrect as of now. Unfortunately, the host does not support the version of discord.py which allows threads to be supported. There will be another update in the near future to support threads.
+
+:::
+
+
 *Archivist is capable of redirecting AO3 fic, chapter, series, and user embeds from the channel/thread the user posted the link in to a channel/thread specified by the server owner or roles with* `Manage Server` *permissions.* 
 
 *The below commands will establish the channels or threads for Archivist to redirect to. **You do not** need to use these commands or change anything if you do not want Archivist to redirect embeds.*

@@ -1,10 +1,9 @@
 # Release Notes #
-### Version 1.3.0 - Jan 2022
+### Version 1.2.0 - Jan 27, 2022
 **New Features**
 
-- *Thread Support* Archivist will now recognize links posted in threads.
-- *Redirect Support* Archivist can now redirect chapter, fic, user, and series embeds to specific channels or threads chosen by server owners or roles with `Manage Server` permissions.
-- `$redirect` command (with lots of subcommands) added to support selection and update of channels or threads and clearing those selections. Please see [Redirect](/docs/Commands/redirect) for more information.
+- *Redirect Support* Archivist can now redirect chapter, fic, user, and series embeds to specific channels chosen by server owners or roles with `Manage Server` permissions.
+- `$redirect` command (with lots of subcommands) added to support selection and update of channels and clearing those selections. Please see [Redirect](/docs/Commands/redirect) for more information.
 
 **Fixes & Improvements**
 

@@ -3,6 +3,13 @@ sidebar_position: 1
 ---
 
 # Common Issues
+
+:::warning
+
+All references below to threads being supported are incorrect as of now. Unfortunately, the host does not support the version of discord.py which allows threads to be supported. There will be another update in the near future to support threads.
+
+:::
+
 #### 1. **Archivist** isn't responding to links. ####
 The most common cause for this is a problem with permissions. **Archivist** requires at least the abilities to `Read Messages`, `Send Messages`, and `Embed Links`. Discord has two places for permissions and issues with permissions are easily missed if you don't check both places.
 
