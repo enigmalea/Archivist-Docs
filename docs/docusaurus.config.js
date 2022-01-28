@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   "title": "Archivist",
   "tagline":  "The Most Comprehensive AO3 Embed Bot for Discord",
-  "url": "https://enigmalea.github.io/",
-  "baseUrl": "/Archivist-Docs/",
+  "url": "https://www.archivistbot.com",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/logo.png",
@@ -23,8 +23,20 @@ const config = {
         "docs": {
           "sidebarPath": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\sidebars.js",
         },
-        "blog": {
+      "blog": {
+          "path": "blog",
+          "blogTitle": "Archivist Development Blog",
+          "blogDescription": "Stay up-to-date on the development of the Discord bot Archivist.",
+          "blogSidebarCount": 5,
+          "blogSidebarTitle": "Recent",
+          "routeBasePath": "blog",
+          "postsPerPage": 10,
           "showReadingTime": true,
+          "feedOptions": {
+            "type": "rss",
+            "title": "Archivist Development Blog",
+            "description": "Stay up-to-date on the development of the Discord bot Archivist."
+          },
         },
         "theme": {
           "customCss": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\src\\css\\custom.css",
@@ -72,6 +84,12 @@ const config = {
           "label": "\u200B",
           "className": "github"
         },
+        { 
+          "href": "https://enigmalea.github.io/Archivist-Docs/blog/rss.xml",
+          "position": "right",
+          "label": "\u200B",
+          "className": "rss"
+        },
       ],
       "hideOnScroll": false
     },
@@ -80,6 +98,10 @@ const config = {
         {
           "title": "Community",
           "items": [
+            {
+              "label": "Blog",
+              "href": "/blog",
+            },
             {
               "label": "Discord",
               "href": "https://discord.gg/FzhC9bVFva",
@@ -117,10 +139,10 @@ const config = {
           ]
         },
         {
-          "title": "\u200B",
           "items": [
             {
              "html": `<a href="https://top.gg/bot/812505952959856690"><img src="https://top.gg/api/widget/812505952959856690.svg"></a>`,
+             "className": "topgg",
             }
           ]
         },
@@ -337,7 +359,11 @@ const config = {
     "docs": {
       "versionPersistence": "localStorage"
     },
-    "metadata": [],
+    "metadata": [
+      {name: 'theme-color', content: '#970000'},
+      {name: 'twitter:card', content: 'summary'},
+      {name: 'twitter:creator', content: '_ArchivistBot_'}
+    ],
     "hideableSidebar": false,
     "tableOfContents": {
       "minHeadingLevel": 2,

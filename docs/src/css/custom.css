@@ -44,13 +44,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-html[data-theme='dark'] footer, html[data-theme='dark'] .navbar {
+html[data-theme='dark'] .footer, html[data-theme='dark'] .navbar {
   background-color: #2F3136;
 }
 
-html[data-theme='light'] footer, html[data-theme='light'] .navbar {
+html[data-theme='light'] .footer, html[data-theme='light'] .navbar {
   background-color: #E3E5E8;
 }
+
 
 html {
   line-height: 1.2rem;
@@ -138,6 +139,11 @@ strong, h3 {
   content:'\f09b';
 }
 
+.rss::before {
+  font: var(--fa-font-solid);
+  content:'\f09e';
+}
+
 .guide, .invite, .help {
   justify-content: flex-start;
 }
@@ -158,6 +164,10 @@ a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-content
 .footer__links {
   align-items: unset;
   justify-content: unset;
+}
+
+div.footer__title.topgg {
+ height: 0;
 }
 
 @media screen and (max-width:640px) {

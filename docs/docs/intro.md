@@ -17,7 +17,7 @@ If you don't know your server's prefix, the bot will respond to a mention. You c
 
 **The basic features of Archivist (viewing fic, series, and user info from AO3 links) require no commands!** Simply invite the bot to your server and it will begin to detect links and post embeds.
 
-The additional commands listed below offer further customization and features.
+The additional commands listed in this guide offer further customization and features.
 
 ---
 
@@ -26,6 +26,10 @@ There may be times you would rather have the bot NOT post an embed and the defau
 
 This default symbol is `%`, however it can be customized by server owners or roles with the **Manage Server** permission. See [Settings](/docs/Commands/settings#prefix-set-new-prefix) for more information.
 
-| Syntax | Example |
-| --- | --- |
-| `%[AO3_LINK]` | `%https://archiveofourown.org/users/enigmalea` |
+`%[AO3_LINK]`
+
+:::info Example
+
+`%https://archiveofourown.org/users/enigmalea`
+
+:::
