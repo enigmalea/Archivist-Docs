@@ -80,7 +80,7 @@ The security of Your Personal Data is important to Us, but remember that no meth
 ## Children’s Privacy ##
 Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from the Host.
 
-Since all Personal and Usage Data is accessed through Discord, any parent who becomes aware their child has provided Personal Data to the Bot should take steps to follow-up with Discord [here](https://support.discord.com/hc/en-us/requests/new?ticket_form_id=360000029731). Their [Privacy Policy](https://discord.com/privacy) contains instructions.
+Since all Personal and Usage Data is accessed through Discord, any parent who becomes aware their child has provided Personal Data to the Bot should take steps to follow-up with Discord [here](https://support.discord.com/hc/en-us/requests/new?ticket_form_id=360000029731). Their [Privacy Policy](https://discord.com/privacy-policy) contains instructions.
 
 ## Links to Other WebsiteS ##
 Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.

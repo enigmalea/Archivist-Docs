@@ -134,7 +134,7 @@ const config = {
           "items": [
             {
               "label": "Privacy Policy",
-              "href": "/privacy"
+              "href": "/privacy-policy"
             }
           ]
         },
