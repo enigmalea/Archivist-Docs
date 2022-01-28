@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent","items":[{"title":"The New Archivist Dev Blog","permalink":"/Archivist-Docs/blog/archivist-dev-blog"}]}')}}]);

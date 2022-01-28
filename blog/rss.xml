@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Archivist Development Blog</title>
-        <link>https://enigmalea.github.io/Archivist-Docs/blog</link>
+        <link>https://www.archivistbot.com/blog</link>
         <description>Stay up-to-date on the development of the Discord bot Archivist.</description>
         <lastBuildDate>Thu, 27 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[The New Archivist Dev Blog]]></title>
-            <link>https://enigmalea.github.io/Archivist-Docs/blog/archivist-dev-blog</link>
+            <link>https://www.archivistbot.com/blog/archivist-dev-blog</link>
             <guid>archivist-dev-blog</guid>
             <pubDate>Thu, 27 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Today is the inaugural day for the Archivist Developer Blog. The purpose of this blog is for me to have a way to communicate certain longer form things about the bot and its development in a more concise way - but not quite as concise as Twitter. Posts will focus on both the development process and important information about updates. You can follow the blog through the RSS feed (linked on the top right navbar) if you have an RSS reader or similar service, but I'll also be sharing certain posts directly through Twitter and to the support server.]]></description>
