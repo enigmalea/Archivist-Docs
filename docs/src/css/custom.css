@@ -6,9 +6,23 @@
 
 /* You can override the default Infima variables here. */
 
+
+/* Font imports Including Font Awesome Icons */
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
 @import "/fontawesome/css/all.css";
 
+/* General line and letter spacing */
+html {
+  line-height: 1.2rem;
+  letter-spacing: 0.03rem;
+}
+
+/* Removes Docusaurus external link icon */
+[class*=iconExternalLink] {
+  display: none;
+}
+
+/*General color variables for light & dark mode */
 :root {
   --ifm-color-primary: #9c0000;
   --ifm-color-primary-dark: #8c0000;
@@ -22,13 +36,6 @@
   --ifm-font-size-base: 1em;
 }
 
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
-}
-
 html[data-theme='dark'] {
   --ifm-color-primary: #6af780;
   --ifm-color-primary-dark: #48f563;
@@ -40,10 +47,7 @@ html[data-theme='dark'] {
   --ifm-background-color: #36393e;
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
+/* Sets footer and navbar colors */
 html[data-theme='dark'] .footer, html[data-theme='dark'] .navbar {
   background-color: #2F3136;
 }
@@ -52,22 +56,7 @@ html[data-theme='light'] .footer, html[data-theme='light'] .navbar {
   background-color: #E3E5E8;
 }
 
-
-html {
-  line-height: 1.2rem;
-  letter-spacing: 0.03rem;
-}
-
-.navbar__brand {
-  font-family: 'Aldrich', sans-serif;
-  letter-spacing: 0.1rem;
-  font-size: 18px;
-}
-
-code {
-  font-family: 'Roboto Mono', monospace;
-}
-
+/* Styles hr lines */
 hr {
   width: 70%;
   margin-left: auto;
@@ -78,6 +67,14 @@ hr {
   border-radius: 2px;
 }
 
+/* Styling for site name to right of logo in navbar */
+.navbar__brand {
+  font-family: 'Aldrich', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+}
+
+/* Header and strong tag Stylings */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2rem;
   font-weight: 400;
@@ -102,15 +99,52 @@ strong, h3 {
   font-variant: small-caps;
 }
 
-.emphasis {
-  color: var(--ifm-color-primary-darkest);
-  text-shadow: none;
+
+/* Header sizes for mobile */
+@media screen and (max-width:640px) {
+  h1 {
+    font-size: 1.902em;
+  }
+
+  h2 {
+    font-size: 1.424em;
+  }
+
+  h3 {
+    font-size: 1.266em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
 }
 
-[class*=iconExternalLink] {
-  display: none;
+/* Link Styling */
+a:hover {
+  text-decoration: underline dashed;
 }
 
+a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-contents__link:hover, img {
+  text-decoration: none;
+}
+
+/* Styles code blocks */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Adds icons to navbar */
 .guide::before {
   font: var(--fa-font-solid);
   content:'\f02d';
@@ -148,46 +182,14 @@ strong, h3 {
   justify-content: flex-start;
 }
 
-a:hover {
-  text-decoration: underline dashed;
+
+/* Class to add color to emphasized word in tagline on landing page*/
+.emphasis {
+  color: var(--ifm-color-primary-darkest);
+  text-shadow: none;
 }
 
-a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-contents__link:hover, img {
-  text-decoration: none;
-}
-
-.row {
-  align-items: baseline;
-  justify-content: center;
-}
-
-.footer__links {
-  align-items: unset;
-  justify-content: unset;
-}
-
-div.footer__title.topgg {
- height: 0;
-}
-
-@media screen and (max-width:640px) {
-  h1 {
-    font-size: 1.902em;
-  }
-
-  h2 {
-    font-size: 1.424em;
-  }
-
-  h3 {
-    font-size: 1.266em;
-  }
-
-  h4 {
-    font-size: 1.125em;
-  }
-}
-
+/* Landing page button styling */
 .button  {
   background-color: var(--ifm-background-color);
   border: 3px dashed var(--ifm-color-primary-darkest);
@@ -207,4 +209,19 @@ div.footer__title.topgg {
 
 .button.button--secondary:hover {
   color: var(--ifm-background-color);
+}
+
+/* Adjusts and aligns landing page content */
+.row {
+  align-items: baseline;
+  justify-content: center;
+}
+
+.footer__links {
+  align-items: unset;
+  justify-content: unset;
+}
+
+div.footer__title.topgg {
+ height: 0;
 }
