@@ -21,7 +21,7 @@ const config = {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\sidebars.js",
+          "sidebarPath": require.resolve("./sidebars.js"),
         },
       "blog": {
           "path": "blog",
@@ -39,7 +39,7 @@ const config = {
           },
         },
         "theme": {
-          "customCss": "C:\\Users\\enigm\\github\\Archivist-Docs\\docs\\src\\css\\custom.css",
+          "customCss": require.resolve("./src/css/custom.css"),
         }
       }
     ]

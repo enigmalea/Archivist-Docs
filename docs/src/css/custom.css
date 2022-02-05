@@ -212,7 +212,7 @@ code {
 }
 
 /* Adjusts and aligns landing page content */
-.row {
+[class*=features] > [class=container] > [class=row] {
   align-items: baseline;
   justify-content: center;
 }
