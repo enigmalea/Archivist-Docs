@@ -1,7 +1,11 @@
 
 <h1 align="center">Archivist Docs</h1>
 
-<p align="center">![MIT License](https://img.shields.io/github/license/enigmalea/Archivist-Docs?style=plastic) [![Follow @_ArchivistBot_ on twitter](https://img.shields.io/twitter/follow/_ArchivistBot_?style=social)](https://twitter.com/_ArchivistBot_) </p>
+![MIT License](https://img.shields.io/github/license/enigmalea/Archivist-Docs?style=plastic)
+![Last Commit](https://img.shields.io/github/last-commit/enigmalea/Archivist-Docs?style=plastic)
+![Website Status](https://img.shields.io:/website?style=plastic&up_message=online&url=https%3A%2F%2Fwww.archivistbot.com)
+[![Follow @_ArchivistBot_ on twitter](https://img.shields.io/twitter/follow/_ArchivistBot_?style=plastic&label=Twitter&logo=twitter&logoColor=ffffff&color=1DA1F2)](https://twitter.com/_ArchivistBot_)
+[![Join Archivist Discord](https://img.shields.io/discord/813906520160731156?color=5865F2&label=Discord&logo=discord&logoColor=ffffff&style=plastic)](https://discord.gg/FzhC9bVFva)
 
 <p align="center">
   <a href="#about">About</a> &#xa0; | &#xa0;
