@@ -1,4 +1,8 @@
 # Release Notes #
+### Version 1.2.1 - Feb 11, 2022
+**Fixes**
+- updated how usernames and pseuds are identified so that numbers and other special characters are not stripped from them and are supported.
+
 ### Version 1.2.0 - Jan 27, 2022
 **New Features**
 
