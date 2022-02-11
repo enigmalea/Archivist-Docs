@@ -349,7 +349,9 @@ const config = {
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "\u263E",
-        "darkIconStyle": {},
+        "darkIconStyle": {
+          color: 'white',
+        },
         "lightIcon": "\u263C",
         "lightIconStyle": {
           color: 'white',
@@ -360,7 +362,7 @@ const config = {
       "versionPersistence": "localStorage"
     },
     "metadata": [
-      {name: 'theme-color', content: '#970000'},
+      {name: 'theme-color', content: '#990000'},
       {name: 'twitter:card', content: 'summary'},
       {name: 'twitter:creator', content: '_ArchivistBot_'}
     ],
