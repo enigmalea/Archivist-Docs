@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[57],{3291:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/intro","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Stay up-to-date on the development of the Discord bot Archivist.","blogTitle":"Archivist Development Blog"}')}}]);
