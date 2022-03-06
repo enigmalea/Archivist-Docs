@@ -32,6 +32,22 @@ html {
   --ifm-color-primary-lighter: #b30000;
   --ifm-color-primary-lightest: #cb0000;
   --ifm-background-color: #F2F3F5;
+  --ifm-code-background: rgba(240, 240, 240, 0.95);
+  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
+  --ifm-color-success: rgba(0, 164, 0, 0.6);
+  --ifm-color-info: rgba(84, 199, 236, 0.6);
+  --ifm-color-warning: rgba(255, 186, 0, 0.6);
+  --ifm-color-danger: rgba(250, 56, 62, 0.6);
+  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
+  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
+  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
+  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
+  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
+  --ifm-color-success-contrast-background: rgb(212, 226, 212);
+  --ifm-color-info-contrast-background: rgb(206, 217, 221);
+  --ifm-color-warning-contrast-background: rgb(226, 219, 202);
+  --ifm-color-danger-contrast-background: rgb(226, 207, 208);
   --ifm-font-family-base: 'Poppins', sans-serif;
   --ifm-font-size-base: 1em;
 }
@@ -45,14 +61,32 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #9cfaab;
   --ifm-color-primary-lightest: #cffcd6;
   --ifm-background-color: #36393e;
+  --ifm-code-background: rgba(43, 43, 43, 0.95);
+  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
+  --ifm-color-success: rgba(0, 164, 0, 0.6);
+  --ifm-color-info: rgba(84, 199, 236, 0.6);
+  --ifm-color-warning: rgba(255, 186, 0, 0.6);
+  --ifm-color-danger: rgba(250, 56, 62, 0.6);
+  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
+  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
+  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
+  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
+  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary-contrast-background: rgb(59, 59, 59);
+  --ifm-color-success-contrast-background: rgb(0, 44, 0);
+  --ifm-color-info-contrast-background: rgb(20, 49, 58);
+  --ifm-color-warning-contrast-background: rgb(65, 47, 0);
+  --ifm-color-danger-contrast-background: rgb(54, 13, 14);
 }
 
 /* Sets footer and navbar colors */
-html[data-theme='dark'] .footer, html[data-theme='dark'] .navbar {
+html[data-theme='dark'] .footer,
+html[data-theme='dark'] .navbar {
   background-color: #2F3136;
 }
 
-html[data-theme='light'] .footer, html[data-theme='light'] .navbar {
+html[data-theme='light'] .footer,
+html[data-theme='light'] .navbar {
   background-color: #E3E5E8;
 }
 
@@ -75,12 +109,18 @@ hr {
 }
 
 /* Header and strong tag Stylings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2rem;
   font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Aldrich', sans-serif;
   color: var(--ifm-color-primary-lightest);
 }
@@ -90,12 +130,17 @@ h1 {
   margin-bottom: 1.2rem;
 }
 
-strong, h3, h4, h5, h6 {
+strong,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.1rem;
 }
 
-strong, h3 {
+strong,
+h3 {
   font-variant: small-caps;
 }
 
@@ -124,7 +169,11 @@ a:hover {
   text-decoration: underline dashed;
 }
 
-a.navbar__brand:hover, a.menu__link:hover, a.hash-link:hover, a.table-of-contents__link:hover, img {
+a.navbar__brand:hover,
+a.menu__link:hover,
+a.hash-link:hover,
+a.table-of-contents__link:hover,
+img {
   text-decoration: none;
 }
 
@@ -147,38 +196,40 @@ code {
 /* Adds icons to navbar */
 .guide::before {
   font: var(--fa-font-solid);
-  content:'\f02d';
+  content: '\f02d';
   padding-right: 5px;
 }
 
 .invite::before {
   font: var(--fa-font-solid);
-  content:'\f055';
+  content: '\f055';
   padding-right: 5px;
 }
 
 .help::before {
   font: var(--fa-font-brands);
-  content:'\f392';
+  content: '\f392';
   padding-right: 5px;
 }
 
 .twitter::before {
   font: var(--fa-font-brands);
-  content:'\f099';
+  content: '\f099';
 }
 
 .github::before {
   font: var(--fa-font-brands);
-  content:'\f09b';
+  content: '\f09b';
 }
 
 .rss::before {
   font: var(--fa-font-solid);
-  content:'\f09e';
+  content: '\f09e';
 }
 
-.guide, .invite, .help {
+.guide,
+.invite,
+.help {
   justify-content: flex-start;
 }
 
@@ -190,7 +241,7 @@ code {
 }
 
 /* Landing page button styling */
-.button  {
+.button {
   background-color: var(--ifm-background-color);
   border: 3px dashed var(--ifm-color-primary-darkest);
 }
@@ -212,7 +263,7 @@ code {
 }
 
 /* Adjusts and aligns landing page content */
-[class*=features] > [class=container] > [class=row] {
+[class*=features]>[class=container]>[class=row] {
   align-items: baseline;
   justify-content: center;
 }
@@ -223,5 +274,5 @@ code {
 }
 
 div.footer__title.topgg {
- height: 0;
+  height: 0;
 }
