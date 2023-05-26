@@ -160,7 +160,6 @@ const config = {
       {name: 'twitter:card', content: 'summary'},
       {name: 'twitter:creator', content: '_ArchivistBot_'}
     ],
-    hideableSidebar: false,
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 3
