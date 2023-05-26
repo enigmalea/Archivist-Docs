@@ -1,4 +1,6 @@
-<center><h1>Archivist Docs</h1>
+<h1 align="center">Archivist Docs</h1>
+
+<p align="center">
 
 ![MIT License](https://img.shields.io/github/license/enigmalea/Archivist-Docs?style=flat&labelColor=545A61&color=BEF9C6)
 ![Last Commit](https://img.shields.io/github/last-commit/enigmalea/Archivist-Docs?style=flat&labelColor=545A61&color=BEF9C6)
@@ -10,7 +12,7 @@
 &#xa0; | &#xa0; <a href="#coming-soon">Coming Soon</a> &#xa0; | &#xa0;
 <a href="https://github.com/enigmalea" target="_blank">Author</a>
 
-</center>
+</p>
 
 &#xa0;
 
